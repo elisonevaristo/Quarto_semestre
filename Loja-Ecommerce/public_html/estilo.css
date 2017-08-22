@@ -69,4 +69,16 @@ article{
 html{
     
 }
+@media (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 
+@media print {
+    div { border: 1px solid black; }
+}
+
+@media print and (orientation: landscape) {
+    div { border: 1px dotted black; }
+}
