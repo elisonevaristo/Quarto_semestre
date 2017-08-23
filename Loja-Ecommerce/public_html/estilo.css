@@ -5,11 +5,12 @@
 }
 
 .row {
-   clear: both;
+    clear: both;
 }
 .col-12{
-
-    background-color: black;
+    background-color: black;}
+img{
+    background-size: 100px;   
 }
 
 .col-1 { width: 8.33%; }
@@ -46,14 +47,24 @@
 }
 
 #sams-s8{
-    background-image:url("http://dk-images.blog.pricerunner.com/wp-content/uploads/2017/04/Samsung-Galaxy-S8-S8-2.jpg")}
-
+    background-image:url("http://dk-images.blog.pricerunner.com/wp-content/uploads/2017/04/Samsung-Galaxy-S8-S8-2.jpg")
+}
 #iPhone7-s{
     background-image:url("https://1.bp.blogspot.com/--bsWhG2u9ng/WX213RiQ2GI/AAAAAAAAD58/-xgQc-Cek_4dS5NLKyyI2JDCZ7WFfG4ZwCPcBGAYYCw/s1600/iPhone.jpg");
 }
 #moto-z2{
-    background-image:url("https://unboxholics.com/media/k2/items/cache/293a6917a738415cb4b33dc4bc362756_XL.jpg")}
+    background-image:url("https://unboxholics.com/media/k2/items/cache/293a6917a738415cb4b33dc4bc362756_XL.jpg")
+}
+#macbook-pro{
+    background-image:url("http://miasalaveria.com/images/design-2-2.jpg")
+}
+#ps4{
+    background-image:url("https://cdn.vox-cdn.com/thumbor/yPFjvLfsfqBgQE9D__jogAi8dGc=/0x52:1000x615/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/45781736/shutterstock_216087928.0.0.jpg");
+}
 
+#xbox-one{
+    background-image:url("http://compass.xbox.com/assets/0c/22/0c227779-a487-45c4-b88f-ef90ead29009.jpg?n=Elite-Bundle_gallery_1056x594_26.jpg");
+}
 article{
     border: 2px hsl(0,10%,20%) solid;
     width: 100%;
@@ -88,6 +99,7 @@ html{
 
 
 input, select, button {
+    cursor: pointer;
     background-color: #0070c9;
     margin-left:5px;
     border:solid 1px #2d2d2d;
@@ -102,6 +114,17 @@ input, select, button {
     margin-right: 6%;
 }
 
-h3, h4, p{
+h3, h4, h5, p{
     font-family:monospace;    
 } 
+h2{
+    font-family: monospace;
+    font-style: inherit;    
+}
+.footer{
+    text-align:  center;
+}
+.hr{
+    align-content: center;
+    
+}
